@@ -1,0 +1,2 @@
+# A Little Bit About Myself.
+Hello, my name is Valeria Dimitryuk and I am a 4th year studying architecture and minoring in interactive media. I was born and raised in Miami. One random fact about me is that I am fluent in Russian and have a Russian passport. I look forward to learning about coding so that I can apply new techniques and technology to the way I present my drawings and ideas.
