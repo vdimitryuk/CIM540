@@ -1,0 +1,79 @@
+<html>
+
+    <head>
+    <title>Puppy Years Calculator</title>
+    
+    
+    </head>
+
+    
+    
+    <body>
+    
+        <h1> Puppy Years Calculator</h1>
+        
+        <p><i> This is a calculator for finding out how old you would be in puppy years. Type in your age and find out if you are still a puppy!</i></p>
+        
+        <img src="http://cdn3-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-21.jpg" width="400">
+        
+        <br>
+        <br>
+        
+        
+        <form>
+        
+            
+            <label for="yourage">Enter Your Age:</label>
+            <input type="text" name="yourage" id="yourage">
+            
+            <br>
+            <br>
+            
+            <button type="button" id="lButton">Submit</button>
+
+        <br>
+        <br>
+
+            <div id="output"></div>
+            
+            
+        </form>
+    <script>
+       
+        
+        var averageage = 105;
+        function PuppyAge() {
+            
+            var Years = document.getElementById("yourage").value;
+            console.log("Years: " + averageage);
+            
+            PuppyAgeRatio = Years * 7;
+            
+            PuppyAgeRatio = Math.round(PuppyAgeRatio);
+            if (PuppyAgeRatio > 105) {
+                var message = "You are an old dog, good thing you are human.";
+                console.log(message);
+            }
+            if (PuppyAgeRatio == 7) {
+                var message = "You are not a pup anymore but still young so live it up.";
+                console.log(message);
+            }
+            if (PuppyAgeRatio < 7) {
+                var message = "You are " + PuppyAgeRatio + " in puppy years!";
+                console.log(message);
+            }
+            var outputText = document.getElementById("output");
+            outputText.innerHTML = message;
+        }
+        var getButton = document.getElementById("lButton");
+        getButton.addEventListener("click", PuppyAge);
+    
+    
+    </script>
+    
+    </body>
+
+
+
+
+</html>
