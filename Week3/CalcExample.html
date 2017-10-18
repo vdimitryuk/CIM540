@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <style>
+        /* Enter CSS below*/     
+        
+    </style>   
+    
+    
+    </head>
+
+
+<body>
+    
+    <h1>Tootsie Pop</h1>
+    
+    <p><i>Description goes here</i></p>
+    
+    <form>
+        <label for="licks">Enter number of licks:</label>
+        <input type="text" name="licks" id="licks">
+        <br><br>
+        <button type="button" id="lButton">Enter licks</button>
+    
+    </form>
+    
+    <script>
+        /* Comment: Enter code below*/
+        
+        function CenterofPop(){
+            var licksAmount = document.getElementById("licks").value;
+            console.log("licks amount: " + licksAmount);
+            
+            var LickRatio = (parseInt(licksAmount)/252) * 100;
+        
+        lickRatio = Math.round(lickRatio);
+        
+        //console.log(lickration);
+            
+        var message = "you have gone: " + lickRatio + "% of the way!";
+            
+        var outputText = document.getElementById("output");
+            outputText.innerHTML = message;
+        
+        }
+        
+        var getButton = document.getElementById("lButton");
+        getButton.addEventListener("click", center of pop);
+        
+    
+    
+    
+    </script>
+    
+    
+    
+    </body>
+
+
+
+</html>
