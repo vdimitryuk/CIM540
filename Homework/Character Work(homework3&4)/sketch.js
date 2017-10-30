@@ -68,35 +68,9 @@ function drawCat(width, height) {
     triangle(260, 155, 280, 155, 270, 175)
 
 
-}
-function drawball {
-    frameRate(60);
-    background(255);
-
-    if (startBounce == true) {
-
-        //Yarn Ball
-    fill("red")
-    ellipse(posX + 250, posY, width/2, height/3);
-        
-        if (directionY == false) {
-            posY++;
-        } else {
-            posY--;
-        }
-
-        if (posY >= height) {
-            directionY = true;
-        }
-
-        if (posY <= 0) {
-            directionY = false;
-        }
-    }
 function draw() {
     background(bgR, bgG, bgB);
     drawCat(200, 300);
-    drawball(300,400)
-}
+ 
 
 
