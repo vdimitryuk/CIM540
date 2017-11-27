@@ -1,0 +1,3 @@
+Code Plan
+
+To create my project I will need to first find a background of a shelf to place my objects on. Next I will find six objects to place onto my background. After that I will place my objects at different points on my background. When the user pans over an object with their mouse, the object will start to rotate on a loop. To do this, I will need to write a code that will start the rotation and loop it. I will also need to write a code to stop the rotation when the user pans away. 
