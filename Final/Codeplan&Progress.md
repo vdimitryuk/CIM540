@@ -4,5 +4,5 @@ To create my project I will need to first find a background of a shelf to place 
 
 12/4 Update
 
-I have figured out how to place my background without any issues. I have been trying to find a way to place the 3D objects but I am still having issues with it uploading. I have found a library that should help me with what my goal is for the project and should make it progress much quicker.
+I have figured out how to place my background without any issues. I have been trying to find a way to place the 3D objects but I am still having issues with it uploading. I have found a library that should help me with what my goal is for the project and should make it progress much quicker. I am currently working on modifying a code to load a 3D house.
 
